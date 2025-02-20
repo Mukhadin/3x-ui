@@ -1,4 +1,4 @@
-[English](/README.md) | [فارسی](/README.fa_IR.md) | [中文](/README.zh_CN.md) | [Español](/README.es_ES.md) | [Русский](/README.ru_RU.md)
+[Русский](/README.ru_RU.md)
 
 <p align="center">
   <picture>
@@ -9,10 +9,10 @@
 
 **Продвинутая веб-панель • Построена на основе Xray Core**
 
-[![](https://img.shields.io/github/v/release/mhsanaei/3x-ui.svg)](https://github.com/MHSanaei/3x-ui/releases)
-[![](https://img.shields.io/github/actions/workflow/status/mhsanaei/3x-ui/release.yml.svg)](#)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/mhsanaei/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg)](#)
+[![](https://img.shields.io/github/v/release/mukhadin/3x-ui.svg)](https://github.com/Mukhadin/3x-ui/releases)
+[![](https://img.shields.io/github/actions/workflow/status/mukhadin/3x-ui/release.yml.svg)](#)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/mukhadin/3x-ui.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/mukhadin/3x-ui/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **Отказ от ответственности:** Этот проект предназначен только для личного обучения и общения. Пожалуйста, не используйте его в незаконных целях и не применяйте в производственной среде.
@@ -32,7 +32,7 @@
 ## Установка и обновление
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/mukhadin/3x-ui/master/install.sh)
 ```
 
 ## Установить старую версию (мы не рекомендуем)
@@ -40,7 +40,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 Чтобы установить желаемую версию, используйте следующую команду установки. Например, ver `v1.7.9`:
 
 ```
-VERSION=v1.7.9 && <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION
+VERSION=v1.7.9 && <(curl -Ls "https://raw.githubusercontent.com/mukhadin/3x-ui/$VERSION/install.sh") $VERSION
 ```
 
 ## SSL Сертификат
@@ -117,7 +117,7 @@ case "${ARCH}" in
 esac
 
 
-wget https://github.com/MHSanaei/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/Mukhadin/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. После загрузки архива выполните следующие команды для установки или обновления x-ui:
@@ -165,7 +165,7 @@ systemctl restart x-ui
 2. **Склонируйте репозиторий проекта:**
 
    ```sh
-   git clone https://github.com/MHSanaei/3x-ui.git
+   git clone https://github.com/Mukhadin/3x-ui.git
    cd 3x-ui
    ```
 
@@ -187,7 +187,7 @@ systemctl restart x-ui
       --network=host \
       --restart=unless-stopped \
       --name 3x-ui \
-      ghcr.io/mhsanaei/3x-ui:latest
+      ghcr.io/mukhadin/3x-ui:latest
    ```
 
 4. **Обновление до последней версии:**
@@ -591,4 +591,4 @@ XUI_BIN_FOLDER="bin" XUI_DB_FOLDER="/etc/x-ui" go build main.go
 
 ## Число звёзд со временем
 
-[![Stargazers over time](https://starchart.cc/MHSanaei/3x-ui.svg?variant=adaptive)](https://starchart.cc/MHSanaei/3x-ui)
+[![Stargazers over time](https://starchart.cc/Mukhadin/3x-ui.svg?variant=adaptive)](https://starchart.cc/Mukhadin/3x-ui)
